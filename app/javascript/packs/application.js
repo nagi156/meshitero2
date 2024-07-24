@@ -9,8 +9,8 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
 import "jquery";
-import "popper.js";
-import "bootstrap";
+import { Tooltip, Toast, Popover } from 'bootstrap';
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../stylesheets/application";
 
 
