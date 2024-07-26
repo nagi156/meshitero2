@@ -1,1 +1,26 @@
 @use '~bootstrap/scss/bootstrap';
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// フラッシュメッセージ
+.notice{
+  background-color: #bfff7f;
+  color: #006633;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.alert{
+  background-color: #ff6699;
+  color: #fcfff9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
